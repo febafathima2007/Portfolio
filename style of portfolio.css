@@ -1,0 +1,420 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+.header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 19px 12%;
+    background-color: rgb(230, 71, 124);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100;
+    
+}
+.logo{
+    font-size: 30px;
+    color: black;
+    font-weight: 600;
+    transition: 0.2s;
+
+}
+.logo:hover{
+    color: white;
+    text-shadow: 0 0 25px;
+    transform: scale(1);
+}
+.navbar a{
+    font-size: 20px;
+    color: black;
+    font-weight: 500;
+    margin: 0 20px;
+}
+.navbar a:hover{
+    color: white;
+}
+.number{
+    padding: 10px;
+    color: black;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    background-color: white;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+.number:hover{
+    color: black;
+    box-shadow: 0 0 26px;
+}
+.home{
+    width: 100%;
+    min-height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 30px 12% 0;
+}
+.home-content{
+    max-width: 800px;
+}
+.home-content h3{
+    font-size: 30px;
+    position: relative;
+    top: 140px;
+}
+.home-content h1{
+    font-size: 40px;
+    line-height: 1.2;
+    position: relative;
+    top: 140px;
+}
+.home-content p{
+    font-size: 15px;
+    margin: 25px 0 30px;
+    position: relative;
+    top: 130px;
+}
+.img img{
+    position: relative;
+    top: 120px;
+    width: 280px;
+    box-shadow: 0 0 34px;
+    border-radius: 50%;
+}
+span{
+    color: rgb(224, 67, 93);
+}
+.About{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12% 8%;
+    background-color: black;
+    gap: 20px;
+}
+.about-img img{
+    position: relative;
+    top: 120px;
+    width: 280px;
+    box-shadow: 0 0 24px rgb(224, 67, 93);
+    border-radius: 50%;
+}
+.about-content h2{
+    text-align: left;
+    color: white;
+    font-size: 42px;
+    text-align: center;
+}
+.about-content h3{
+    font-size: 28px;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 30px;
+}
+.about-content p{
+    color: white;
+    font-size: 18px;
+    margin: 0 3px ;
+    position: relative;
+    left: 30px;
+    top: 60px;
+}
+#image{
+    width: 33px;
+    height: 33px;
+    position: relative;
+    right: 880px;
+    top: 350px;
+    border-radius: 13px;
+    gap: 10px;
+
+}
+#logo{
+    width: 31px;
+    height: 31px;
+    position: relative;
+    right: 860px;
+    top: 350px;
+    border-radius: 10px;
+    gap: 10px;
+}
+.skill{
+    display: flex;
+    flex-direction: column;
+    gap: 7em;
+    padding: 12% 8%;
+    background-color: white ;
+}
+.about-skill h3{
+    font-size: 70px;
+    padding: 10px;
+    margin-bottom: 100px;
+    text-align: center;
+    position: relative;
+    bottom: 99px;
+    color: rgb(224, 67, 93);
+}
+.about-skill h4{
+    line-height: 4em;
+    line-gap-override: inherit;
+    font-style: unset;
+    font-weight: 900;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 150px;
+}
+.one:hover{
+    color: black;
+}
+.about-project img{
+    width: 700px;
+    height: 400px;
+    position: relative;
+    left: 300px;
+    bottom: 10px;
+    top: 30px;
+}
+.about-project h3{
+    text-align: center;
+    color:  white;
+    position: relative;
+    bottom: 0.5px;
+    font-size: 40px;
+    top: 60;
+    line-height: 1.1;
+    letter-spacing: 1px;
+    font-family: serif;
+}
+.project{
+    background-color: black;
+    width: 92%;
+    padding: 40px 0;
+    position: relative;
+    left: 50px;
+}
+.para{
+    color: white;
+    position: relative;
+    left: 30px;
+    top: 33px;
+}
+.contact{
+    background-color:rgb(185, 68, 88);
+    width: 100%;
+    padding-top: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,  0, 0, 1);
+    position: relative;
+    left: 350px;
+    top: 0px;
+    bottom: 400px;
+}
+.about-contact h3{
+    text-align: center;
+    margin-bottom: 50px;
+    color: black;
+    line-height: 1.3px;
+}
+#file{
+    box-sizing: border-box;
+    position: relative;
+    bottom: 40px;
+    width: 420px;
+}
+.form{
+    flex-direction: column;
+    display: flex;
+    bottom: 60px;
+}
+label{
+    margin-bottom: 8px;
+    margin-top: 1px;
+    font-weight: bold;
+    color: black;
+}
+input,
+textarea{
+    padding: 14px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    font-size: 16px;
+}
+textarea{
+    height: 120px;
+    resize: none;
+}
+button{
+    margin-top: 25px;
+    padding: 15px;
+    border: none;
+    border-radius: 6px;
+    background-color: black;
+    color: palevioletred;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: white;
+}
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+@media screen and (max-width: 768px) {
+ 
+    .header {
+        padding: 10px 5%;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .logo {
+        font-size: 22px;
+    }
+    .navbar {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5px;
+    }
+    .navbar a {
+        font-size: 14px;
+        margin: 0 8px;
+    }
+    .number {
+        font-size: 14px;
+        padding: 7px 12px;
+    }
+ 
+    .home {
+        flex-direction: column;
+        align-items: center;
+        padding: 100px 6% 40px;
+        text-align: center;
+    }
+    .home-content h3 {
+        font-size: 22px;
+        top: 0;
+    }
+    .home-content h1 {
+        font-size: 26px;
+        top: 0;
+    }
+    .home-content p {
+        font-size: 14px;
+        top: 0;
+    }
+    .img img {
+        width: 180px;
+        top: 0;
+        margin: 20px auto 0;
+    }
+ 
+    #image,
+    #logo {
+        position: static;
+        display: inline-block;
+        margin: 10px 6px 0;
+        width: 30px;
+        height: 30px;
+    }
+ 
+    .About {
+        flex-direction: column;
+        padding: 80px 6% 40px;
+        text-align: center;
+    }
+    .about-img img {
+        width: 160px;
+        top: 0;
+        margin: 0 auto;
+    }
+    .about-content h2 {
+        font-size: 28px;
+    }
+    .about-content h3 {
+        font-size: 20px;
+        top: 10px;
+    }
+    .about-content p {
+        font-size: 15px;
+        left: 0;
+        top: 20px;
+        text-align: center;
+    }
+ 
+    .skill {
+        padding: 60px 6%;
+        gap: 2em;
+    }
+    .about-skill h3 {
+        font-size: 36px;
+        bottom: 0;
+        margin-bottom: 20px;
+    }
+    .about-skill h4 {
+        font-size: 16px;
+        bottom: 0;
+        line-height: 2.5em;
+    }
+ 
+    .project {
+        width: 100%;
+        left: 0;
+        padding: 30px 6%;
+    }
+    .about-project img {
+        width: 100%;
+        height: auto;
+        position: static;
+        display: block;
+        margin: 20px auto 0;
+    }
+    .about-project h3 {
+        font-size: 26px;
+    }
+    .para {
+        left: 0;
+        top: 20px;
+        padding: 0 10px;
+        font-size: 14px;
+    }
+ 
+    .contact {
+        position: static;
+        left: 0;
+        max-width: 100%;
+        margin: 30px auto;
+        padding: 20px;
+    }
+    #file {
+        width: 100%;
+        bottom: 0;
+    }
+ 
+    .footer {
+        padding: 40px 16px;
+    }
+    .footer h1 {
+        font-size: 22px;
+    }
+}
+ 
+    
