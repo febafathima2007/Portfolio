@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+   
+<script src="script.js"></script>
+<link rel="stylesheet" href="style of portfolio.css">
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "cS_08Sr53tTOG12N-",
+      });
+   })();
+</script>
+</head>
+
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Feba Fathima</a>
+
+        <nav class="navbar">
+        <a href="#white">Home</a>
+        <a href="#black">About</a>
+        <a href="#yellow">Skills</a>
+        <a href="#blue">Projects</a>
+    </nav>
+    <a href="#pink" class="number">Contact</a>
+</header>
+
+<section class="home" id="white">
+    <div class="home-content">
+         <h3>Hi</h3>
+
+         <h1>I'm <span>Feba Fathima <br></span>an intern at bridgeon.</h1>
+
+         <p>I'm a software developer with a focus on  building and  designing  web
+application. I'm currently working at BridgeOn I'm passionate  about  
+building clean, efficient code and creating seamless user experiences.</p>
+    </div>
+
+
+         <div class="img">
+            <img src="img_feba.jpeg" id="first">
+
+         </div>
+         <a href="https://www.instagram.com/febafathim?igsh=MXhuM2E0N2RsZ3owbA=="><img src="img_insta.jpg" alt="" id="image"></a>
+         <a href="https://www.linkedin.com/in/fathima-feba-647a9840a/"><img src="LinkedIn_icon.svg.webp" alt="" id="logo"></a>
+
+</section>
+
+<section class="About" id="black">
+    <div class="about-img">
+        <img src="img_feba.jpeg" alt="">
+    </div>
+
+    <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3><span>Intern</span> at Bridgeon</h3>
+        <p>Hi! I'm Feba Fathima, a Web Developer with skills in HTML &CSS. I love turning concepts into fully functional,scalable, and user-friendly applications. I enjoy using framework and tools to deliver intuitive, high-performing software. I'm committed to writing clean, reusable code that aligns with best practice and thrive in collaborative environments. My goals is to create impactful software that solves real problem and enhances user experiences. Let's build something great together!. </p>
+        
+
+    </div>
+
+
+</section>
+
+<section class="skill" id="yellow">
+    <div class="about-skill">
+        <h2 class="my skills"><h3>My Skills</h3></h2>
+        <h4>
+            <li class="one">1. HTML</li>
+            <li class="one">2. CSS</li>
+            <li class="one">3. Problem Solving</li>
+        </h4> 
+
+    </div>
+
+</section>
+
+
+<section class="project" id="blue">
+    <div class="about-project ">
+        <h3>Project</h3>
+        <img src="img_screenshot.png" alt="">
+    </div>
+    <div class="para">
+        “Hi, this is my personal portfolio website.
+I created this portfolio to showcase my skills, projects, and personal information as a web development student.”
+    </div>
+</section>
+<br>
+<section class="contact" id="pink">
+    <div class="about-contact">
+        <h3>Connect Me</h3>
+    </div>
+    <div id="file"><form class="form">
+         <label for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Enter your name"><br>
+    <br>
+    <label for="email">Email:</label>
+    <input type="text" id="email" name="email" placeholder="enter your email"><br>
+    <br>
+    <label for="subject">Subject:</label>
+    <input type="text" id="subject" name="subject" placeholder="How can I help you"><br>
+    <br>
+    <label for="message">Message:</label>
+    <input type="text" id="message" name="message" placeholder="Text here"><br>
+    
+    <button type="button" onclick="sendMail()">Send Message</button>
+    </form></div>
+</section>
+<br>
+<section class="footer">
+    <h1>Thanks for your visit</h1>
+    <p class="connect">Feel free to connect</p>
+
+    <p class="copyright">
+        <p class="copyright">
+            © 2026 Your Website Name | All Rights Reserved
+        
+    </p>
+
+    <div class="social-icons">
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#"><i class="fa-brands fa-github"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+
+    </div>
+
+
+
+</section>
+</body>
+</html>
